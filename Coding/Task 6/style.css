@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://wallpaperaccess.com/full/1104558.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 450px;
+    height: 450px;
+}
+.heading-box
+{
+    text-align: center;
+    padding: 20px 30px;
+}
+.heading-box h1
+{
+    font-size: 30px;
+}
+.Original
+{
+    padding-bottom: 30px;
+}
+.Original p
+{
+    font-size: 20px;
+}
+.input-box
+{
+    text-align: center;
+}
+.input-box label
+{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.input-box input
+{
+    font-size: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.insertElement
+{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.insertElement button
+{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.deleteLastElement
+{
+    text-align: center;
+}
+.deleteLastElement button
+{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.deleteLastElement button:hover
+{
+    background-color: darkorange;    
+}
+.insertElement1:hover
+{
+    background-color: darkorange;
+}
+.addNumbers1:hover
+{
+    background-color: darkorange;
+}
+
+.array
+{
+    text-align: center;
+    padding: 30px;   
+}
+.array p
+{
+    font-weight: bold;
+    font-size: 20px;
+}

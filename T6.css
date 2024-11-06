@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* body
+{
+    background: url(https://wallpaperaccess.com/full/4700358.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.task6-html
+{
+    display: none;
+    width: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.task6-container
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 450px;
+    height: 450px;
+}
+.task6-heading-box
+{
+    text-align: center;
+    padding: 20px 30px;
+}
+.task6-heading-box h1
+{
+    font-size: 30px;
+}
+.task6-Original
+{
+    padding-bottom: 30px;
+}
+.task6-Original p
+{
+    font-size: 20px;
+}
+.task6-input-box
+{
+    text-align: center;
+}
+.task6-input-box label
+{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.task6-input-box input
+{
+    font-size: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.task6-insertElement
+{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.task6-insertElement button
+{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.task6-deleteLastElement
+{
+    text-align: center;
+}
+.task6-deleteLastElement button
+{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.task6-deleteLastElement button:hover
+{
+    background-color: darkorange;    
+}
+.task6-insertElement1:hover
+{
+    background-color: darkorange;
+}
+.task6-addNumbers1:hover
+{
+    background-color: darkorange;
+}
+
+.task6-array
+{
+    text-align: center;
+    padding: 30px;   
+}
+.task6-array p
+{
+    font-weight: bold;
+    font-size: 20px;
+}

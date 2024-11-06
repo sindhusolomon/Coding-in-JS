@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://wallpaperaccess.com/full/1104558.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    font-size: 50px;
+}
+.Day
+{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /* background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.Month
+{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /* background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.Year
+{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /* background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 30px;
+}

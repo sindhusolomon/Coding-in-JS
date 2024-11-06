@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* body
+{
+    background: url(https://i.pinimg.com/originals/31/04/c9/3104c9991a1c8f4403a1fe4ab914b103.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.task10-html
+{
+    display: none;
+}
+.task10-container
+{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    font-size: 50px;
+}
+.task10-Day
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.task10-Month
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.task10-Year
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 30px;
+}

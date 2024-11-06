@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://wallpaperaccess.com/full/1104558.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-box-main
+{
+    display: flex;
+    height: 100vh;
+}
+hr
+{
+    display: none;
+}
+.left-box
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid black;
+    overflow: auto;
+    font-size: 30px;
+    width: 30%;
+    padding: 20px 30px;
+}
+.left-box h1
+{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.left-box img
+{
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+}
+.left-box img:hover
+{
+    transform: scale(0.95);
+}
+.left-box p
+{
+    color: white;
+    text-align: justify;
+    width: 350px;
+}
+.left-box button
+{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+.left-box .task-1-btn1:hover
+{
+    transform: scale(1.1);
+    color:white ;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+.left-box .task-1-btn2:hover
+{
+    transform: scale(1.1);
+    color:white ;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+.task-1, .task-2, .task-3, .task-4, .task-5, .task-6, .task-7, .task-8, .task-9, .task-10
+{
+    text-align: center;
+    padding: 10px 10px 10px 7px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.task-1 a, .task-2 a, .task-3 a, .task-4 a, .task-5 a, .task-6 a,
+.task-7 a, .task-8 a, .task-9 a, .task-10 a
+{
+    text-decoration: none;
+    color: black;
+}
+.task-1 a:hover, .task-2 a:hover, .task-3 a:hover, .task-4 a:hover,
+.task-5 a:hover, .task-6 a:hover, .task-7 a:hover, .task-8 a:hover, 
+.task-9 a:hover, .task-10 a:hover
+{
+    color: white;
+    /* text-decoration: underline; */
+}
+.task-6 ul
+{
+    margin-left: 30px;
+    width: 300px;
+    font-size: 20px;
+    text-align: justify;
+}
+.left-box .footer
+{
+    padding: 20px;
+}
+.left-box .footer a
+{
+    color:black;
+    text-decoration: none;
+}
+.left-box .footer a:hover
+{
+    text-decoration: underline;
+}
+/* end */
+
+
+.right-box
+{
+    width: 70%;
+}

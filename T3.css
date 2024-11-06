@@ -1,0 +1,76 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* body
+{
+    background: url(https://th.bing.com/th/id/OIP.bIb1zyA9_OrCjgFg77CdAgHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+ .task3-html
+ {
+    display: none;
+    width: 6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+.task3-container
+{    
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 1px solid white;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
+.task3-heading h1
+{
+    padding: 20px 0;
+    text-align: center;
+}
+.task3-userinput-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task3-userinput-box input
+{
+    background: none;
+    border: none;
+    text-align: start;
+    border-bottom:  2px solid white;
+    font-size: 20px;
+    padding: 0 20px;
+    color: white;
+}
+.task3-userinput-box input:focus
+{
+    outline: none;
+}
+.task3-button-box
+{
+    width: 250px;
+    padding-top: 20px;
+    display: flex;
+    margin-left: 70px;
+    flex-direction: column;
+    gap: 10px;
+}
+.task3-button-box button
+{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.task3-output-box
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}

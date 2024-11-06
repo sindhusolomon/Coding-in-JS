@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* body
+{
+    background: url(https://th.bing.com/th/id/OIP.r3opE0lB4M6Gtce9YTuiAgHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.task8-html
+{
+    display: none;
+    /* z-index: 11;
+    background: url(https://th.bing.com/th/id/OIP.r3opE0lB4M6Gtce9YTuiAgHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.container h1
+{
+    display: block;
+    width: 900px;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.container2
+{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.container2 #button-box1
+{
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+.container2 #button-box1:hover
+{
+    color: white;
+    background-color: green;
+}
+.container2 #button-box2
+{
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 7px 28px;
+    border-radius: 30px;
+    display: none;
+}
+.container2 #button-box2
+{
+    color: white;
+    background-color: orangered;
+}

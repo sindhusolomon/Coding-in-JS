@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Converter</title>
+
+    <!-- link style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- heading -->
+        <div class="heading">
+            <h1>Case Converter</h1>
+        </div>
+
+        <!-- userinput -->
+        <div class="userinput-box">
+            <input class="text1" id="input" type="text" placeholder="Enter a string">
+        </div>
+
+        <!-- convertCase button -->
+        <div class="button-box">
+            <button onclick="convertCaseU()">Uppercase Convert</button>
+            <button onclick="convertCaseL()">Lowercase Convert</button>
+            <button onclick="Clear()">Clear</button>
+        </div>
+
+        <!-- print output -->
+        <div class="output-box">
+            <h3 id="output"> </h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

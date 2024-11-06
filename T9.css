@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* body
+{
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch13-086-kpxyz0id.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=00c2d7b35d84cdb4c43982f06dc50e84);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.task9-html
+{
+    display: none;
+}
+.container
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);    
+    width: 400px;
+    height: 350px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+}
+.container2
+{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.container input
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btnBox button
+{
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.btnBox button:hover
+{
+    background-color: rgb(98, 98, 182);
+}
+.btnBox #Clear
+{
+    padding: 10px 25px;
+}
+.btnBox #Clear:hover
+{
+    background-color: rgb(98, 98, 182);
+}
+.container2 p
+{
+    font-size: 25px;
+}

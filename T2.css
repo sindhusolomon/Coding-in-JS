@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    .task2-html
+    {
+        width: 6%;
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 30px;
+    }
+    .task2-container
+    {
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);      
+        border: 1px solid white;
+        color: black;
+        width: 400px;
+        height: 350px;
+    }
+    .task2-name-box
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0 10px 55px;
+    }
+    .task2-name-box , label
+    {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    .task2-count-box
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 10px 55px;
+    }
+    .count-box, label
+    {
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    .task2-name-box input
+    {
+        font-size: 20px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+        height:35px;
+        width: 80%;
+    }
+    .task2-count-box input
+    {
+        font-size: 20px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid white;
+        height:35px;
+        width: 80%;
+    }
+    .task2-count-box input:focus
+    {
+        outline: none;
+        border-bottom: 2px solid green;
+    }
+    .task2-name-box input:focus
+    {
+        outline: none;
+        border-bottom: 2px solid green;
+    }
+    .task2-btn
+    {
+        display: flex;
+        gap: 20px;   
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .task2-btn, button
+    {
+        border: none;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .btn11
+    {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .btn11:hover
+    {
+        background-color: green;
+        color: white;
+    }
+    .btn2:hover
+    {
+        background-color: red;
+        color: white;
+    }
+    .btn0:hover
+    {
+        background-color: rgb(107, 107, 252);
+        color: white;
+    }
+    .error
+    {
+        font-size: 20px;
+        color: red;
+        text-align: center;
+    }
+    .task2-pritout-box
+    {
+        display: none;
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);      
+        border: 1px solid white;
+        color: black;
+        width: 400px;
+        height: 350px;
+    }
+    .task2-prit-container
+    {
+        display: none;
+        position: relative;
+        overflow:auto;
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);      
+        border: 1px solid white;
+        width: 400px;
+        height: 350px;
+    }
+    #output
+    {
+        letter-spacing: 5px;
+        font-weight: b;
+        font-size: 25px;
+        text-align: center;
+    }
+    .h2
+    {
+        font-size: 25px;
+        text-align: center;
+        /* text-decoration: underline black; */
+        text-underline-offset: 5px;
+
+    }
+    .task2-menu-box
+    {
+        padding: 7px 10px;
+        display: flex;
+        justify-content:space-between;
+        /* gap: 10px; */
+        font-size: 45px;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .task2-menu-box h6
+    {
+        color: white;
+        font-size: 30px;
+    }
+    /* .task2-menu-box, h6, */
+     i
+    {
+        color: white;
+        font-size: 30px;
+    }
+    .colo i:hover
+    {
+        color: red;
+    }
+    .colo2 i:hover
+    {
+        color: yellow;
+    }

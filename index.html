@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coding Practice in JavaScript </title>
+
+    <!-- link style -->
+     <link rel="stylesheet" href="style.css">
+    <!-- task-1-style -->
+     <link rel="stylesheet" href="T1.css">
+    <!-- task-2-style -->
+     <link rel="stylesheet" href="T2.css">
+    <!-- task-3-style -->
+     <link rel="stylesheet" href="T3.css">
+    <!-- task-4-style -->
+     <link rel="stylesheet" href="T4.css">
+    <!-- task-5-style -->
+     <link rel="stylesheet" href="T5.css">
+    <!-- task-6-style -->
+     <link rel="stylesheet" href="T6.css">
+    <!-- task-7-style -->
+     <link rel="stylesheet" href="T7.css">
+    <!-- task-8-style -->
+     <link rel="stylesheet" href="T8.css">
+    <!-- task-9-style -->
+     <link rel="stylesheet" href="T9.css">
+    <!-- task-10-style -->
+     <link rel="stylesheet" href="T10.css">
+
+       <!-- Font Awasome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ 
+</head>
+<body>
+        <div class="main-box-main">
+        
+            <div class="left-box">
+                <h1>Coding Practice in JavaScript -[Compulsory task] </h1>
+                <div class="task-1">
+                    <img src="Images/Task 1.jpeg" alt="">
+                    <p><a href="Coding/Task 1/index.html" target="_blank">1.Find out the given number is even or not?</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask1()">Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-2">
+                    <img src="Images/Task 2.jpeg" alt="">
+                    <p><a href="Coding/Task 2/index.html" target="_blank">2.Arrow function to print your name as 5 times.</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask2()">Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-3">
+                    <img src="Images/Task 3.jpeg" alt="">
+                    <p><a href="Coding/Task 3/index.html" target="_blank">3.To get the string from user and change it as uppercase and lowercase.</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask3()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-4">
+                    <img src="Images/Task 4.jpeg" alt="">
+                    <p><a href="Coding/Task 4/index.html" target="_blank">4.Find out the factorial of the given number.</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask4()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-5">
+                    <img src="Images/Task 5.jpeg" alt="">
+                    <p><a href="Coding/Task 5/index.html" target="_blank">5.Get the String from the user and find out the count of vowel letters in the string.</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask5()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-6">
+                    <img src="Images/Task 6.jpeg" alt="">
+                    <p><a href="Coding/Task 6/index.html" target="_blank">6.Insert a new element in the array.</a></p>
+                    <ul>
+                        <li>Const a1=[23,45,89,22,77,09].</li>
+                        <li>Add the new numbers to the array.</li>
+                        <li>Delete the last number from the given array.</li>
+                    </ul>
+                    <button class="task-1-btn1" onclick="OpenTask6()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-7">
+                    <img src="Images/Task 7.jpeg" alt="">
+                    <p><a href="Coding/Task 7/index.html" target="_blank">7.Write a table for 8th table. Like this format (1 X 8 = 8).</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask7()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-8">
+                    <img src="Images/Task 8.jpeg" alt="">
+                    <p><a href="Coding/Task 8/index.html" target="_blank">8.Let text= "I am a Front End Developer" Replace the text "Front End" to "Full Stack".</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask8()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-9">
+                    <img src="Images/Task 9.jpeg" alt="">
+                    <p><a href="Coding/Task 9/index.html" target="_blank">9.Find out the given number is divisible by 6.</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask9()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+                <hr>
+                <div class="task-10">
+                    <img src="Images/Task 10.jpeg" alt="">
+                    <p><a href="Coding/Task 10/index.html" target="_blank">10.To print today date.</a></p>
+                    <button class="task-1-btn1" onclick="OpenTask10()" >Open Task</button>
+                    <button class="task-1-btn2" onclick="CloseTask()">Close Task</button>
+                </div>
+            
+            </div>
+
+            <div id="right-box" class="right-box">
+
+                <div id="task1-html" class="task1-html">
+                    <!-- Write a function to find out the given number is even or not -->
+                    <div class="task1-container">
+                        <div class="task1-container-2">
+                            <label class="task1-label">Check the number even or not</label>
+                            <input class="task1-input" id="number" type="number">
+                        </div>
+                        <div class="task1-container-3">
+                            <button class="btn1" onclick="Checking()" >Check</button>
+                            <button class="btn2" onclick="Clear()" >Clear</button>
+                        </div>
+                    </div>
+                    <div class="task1-container-4 "> 
+                        <h5 id="result"></h5>
+                    </div>
+                </div>
+                <div id="task2-html" class="task2-html">
+                    <div class="task2-container">
+                        <div class="task2-menu-box">
+                            <!-- <h6 title="Back"><i class="fa-solid fa-arrow-left" ></i></h6> -->
+                            <h2 class="h2">Printer</h2>
+                            <h6 class="colo" title="Close"><i class="fa-solid fa-x"></i></h6>
+                        </div>
+                    
+                        <div class="task2-name-box">
+                          <label>Name</label>
+                          <input id="name1" type="text">
+                        </div>
+                        
+                        <div class="task2-count-box">
+                          <label>Print Count</label>
+                          <input id="printnumber" type="number">
+                        </div>
+                        
+                        <div class="task2-btn">
+                          <button class="btn0" onclick="Opne()">View Print</button>
+                          <button class="btn2" onclick="Clear()">Clear</button>
+                        </div>
+                        <div class="error" style="display: none;">
+                          <p id="error"> </p>
+                        </div>
+                      </div>
+                      <div class="task2-pritout-box">
+                        <div class="task2-menu-box">
+                            <h6 class="colo2" onclick="goBack()" title="Back"><i class="fa-solid fa-arrow-left" ></i></h6>
+                            <h2 class="h2">pritout-menu</h2>
+                            <h6 class="colo" onclick="printoutBoxClose()" title="Close"><i class="fa-solid fa-x"></i></h6>
+                        </div>
+                        <button class="btn11" onclick="Print()">Print</button>
+                      </div>
+                      <div class="task2-prit-container">
+                        <div class="task2-menu-box">
+                            <h6 class="colo2" title="Back" onclick="goBack2()"><i class="fa-solid fa-arrow-left" ></i></h6>
+                            <h2 class="h2">Print Paper</h2>
+                            <h6 class="colo" onclick="containerClose()" title="Close"><i class="fa-solid fa-x"></i></h6>
+                        </div>
+                    
+                        <div id="output"></div>
+                      </div>
+                </div>
+                <div id="task3-html" class="task3-html">
+                    <div class="task3-container">
+        
+                        <!-- heading -->
+                        <div class="task3-heading">
+                            <h1>Case Converter</h1>
+                        </div>
+                
+                        <!-- userinput -->
+                        <div class="task3-userinput-box">
+                            <input class="text1" id="inputt" type="text" placeholder="Enter a string">
+                        </div>
+                
+                        <!-- convertCase button -->
+                        <div class="task3-button-box">
+                            <button onclick="convertCaseU()">Uppercase Convert</button>
+                            <button onclick="convertCaseL()">Lowercase Convert</button>
+                            <button onclick="ClearTask3()">Clear</button>
+                        </div>
+                
+                        <!-- print output -->
+                        <div class="task3-output-box">
+                            <h3 id="outputt"> </h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="task4-html" class="task4-html">
+                    <div class="task4-container">
+        
+                        <!-- heading-box -->
+                        <div class="task4-heading-box">
+                            <h1>Factorial Calculator</h1>
+                        </div>
+                
+                        <!-- user-input-box -->
+                        <div class="task4-user-input-box">
+                            <input id="numberr" type="number" placeholder="Enter">
+                        </div>
+                
+                        <!-- button-box -->
+                        <div class="task4-button-box">
+                            <button onclick="calculateFactorial()">Calculate</button>
+                            <button onclick="clearTask4()">Clear</button>
+                        </div>
+                
+                        <!-- output-box -->
+                        <div class="task4-output-box">
+                            <h3 id="task4-output"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="task5-html" class="task5-html">
+                    <div class="task5-container">
+                        <div class="task5-heading">
+                            <h1>Vowels Count</h1>
+                        </div>
+                        <div class="task5-userInput">
+                            <input id="Count-User" type="text">
+                        </div>
+                        <div class="task5-button">
+                            <button class="task5-mid-button1" onclick="Count()" >Count</button>
+                            <button class="task5-mid-button2" onclick="ClearTask5()" >Clear</button>
+                        </div>
+                        <div class="task5-output">
+                            <p id="Count-Output"> </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="task6-html" class="task6-html">
+                    <div class="task6-container">
+                        <div class="task6-heading-box">
+                            <h1>Array Operations</h1>
+                        </div>
+                        <div class="task6-Original">
+                            <p>Original Array: [23, 45, 89, 22, 77, 9]</p>
+                        </div>
+                        <div class="task6-input-box">
+                            <label>Number</label>
+                            <input id="new-element" type="number" placeholder="Enter new element">
+                        </div>
+                        <div class="task6-insertElement">
+                            <button class="task6-insertElement1" onclick="insertElement()">Insert Element</button>
+                            <button class="task6-addNumbers1" onclick="addNumbers()">Add Numbers</button>
+                        </div>
+                        <!-- <div class="addNumbers">
+                            <button onclick="addNumbers()">Add Numbers</button>
+                        </div> -->
+                        <div class="task6-deleteLastElement">
+                            <button class="deleteLastElement1" onclick="deleteLastElement()">Delete Last Element</button>
+                            <button class="Clear" onclick="ClearTask6()">Clear</button>
+                        </div>
+                        <div class="task6-array">
+                            <p id="array-output"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="task7-html" class="task7-html">
+                    <div class="task7">
+                        <div class="container1">
+                            <div class="userInputBox">
+                                <label> Multiplication Table </label>
+                            </div>
+                        
+                            <div class="buttonBox">
+                                <input id="input" type="number">
+                                <button id="btn" onclick="multi()">Submit</button>
+                                <button id="btn" onclick="ClearTask7()">Clear</button>
+                            </div>
+                        
+                        </div>
+                        
+                            <div class="outputBox">
+                                <table id="table-output"></table>
+                            </div>
+                    </div>
+                </div>
+                <div id="task8-html" class="task8-html">
+                    <div class="container">
+                        <h1 >I am a <span id="text1"> front end </span> developer </h1>
+                    </div>
+                    <div class="container2">
+                        <div class="button-box1">
+                            <button id="button-box1" onclick="replace()">Replace</button>
+                        </div>
+                        <div class="button-box2">
+                            <button id="button-box2" onclick="Return()">Return</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="task9-html" class="task9-html">
+                    <div class="container">
+                        <div class="inputBox">
+                            <input id="number9" type="number" placeholder="Enter a number">
+                        </div>
+                        <div class="btnBox">
+                            <button onclick="checkDivisibility()">Check</button>
+                            <button  onclick="ClearTask9()">Clear</button>
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <p id="result9"> </p>
+                    </div>
+                </div>
+                <div id="task10-html" class="task10-html">
+                        <!-- Write a function to print today date. -->
+                    <div class="task10-container">
+                        <div class="task10-Day">
+                            <h3>Day</h3>
+                            <p id="Day">00</p>
+                        </div>
+                        <div class="task10-Month">
+                            <h3>Month</h3>
+                            <p id="Month">00</p>
+                        </div>
+                        <div class="task10-Year">
+                            <h3>Year</h3>
+                            <p id="Year">00</p>
+                        </div>
+                    </div>
+             
+                </div>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
